@@ -11,6 +11,7 @@ const Home = () => {
 
     const dispatch = useDispatch();
     const tasks = useSelector(state => state.tasks.tasks);
+    const useless_string = "";
 
     useEffect(() => {
         const fetchData = async () => {
